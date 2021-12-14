@@ -1,8 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+:root {
+  --dark-grayish-blue: hsl(217, 19%, 35%);
+  --dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-grayish-blue);
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  background-color: var(--color-white);
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.image-content {
+  width: 40%;
+  overflow: hidden;
+  background-image: url(../images/drawers.jpg);
+  background-repeat: no-repeat;
+  background-size: 125%;
+}
+
+.text-content {
+  width: 60%;
+  padding: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-title {
+  color: var(--dark-grayish-blue);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.article-preview {
+  padding: 0.75rem 0;
+  line-height: 1.6;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-text {
+  padding: 0 1rem;
+}
+
+.author-photo {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.article-author {
+  color: var(--dark-grayish-blue);
+  font-weight: 700;
+}
+
+.share-button {
+  background-color: var(--light-grayish-blue);
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
 /* Footer Section */
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-blue);
+}
+
+.attribution a:hover {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
 }
