@@ -5,7 +5,7 @@ const authorDetails = document.querySelector(".author-details");
 const articleFooterContainer = document.querySelector(".article-footer");
 
 shareButton.addEventListener("click", () => {
-  if (window.matchMedia("(max-width: 576px)").matches) {
+  if (window.matchMedia("(max-width: 800px)").matches) {
     if (socialContainer.style.display !== "block") {
       shareButton.style.backgroundColor = "hsl(214, 17%, 51%)";
       shareIcon.style.fill = "hsl(0, 0%, 100%)";
