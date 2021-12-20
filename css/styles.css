@@ -92,6 +92,10 @@ main {
   font-weight: 700;
 }
 
+.article-date {
+  color: var(--grayish-blue);
+}
+
 .share-button {
   background-color: var(--light-grayish-blue);
   border-radius: 50%;
