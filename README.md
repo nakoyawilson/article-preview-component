@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-using-flexbox-iob2L-lhO](https://www.frontendmentor.io/solutions/article-preview-component-using-flexbox-iob2L-lhO)
 - Live Site URL: [https://nakoyawilson.github.io/article-preview-component/](https://nakoyawilson.github.io/article-preview-component/)
 
 ## My process
