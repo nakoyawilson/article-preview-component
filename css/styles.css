@@ -117,19 +117,19 @@ main {
   justify-content: space-around;
   width: 250px;
   position: relative;
-  box-shadow: 0 1rem 3rem hsla(212, 23%, 69%, 0.25);
+  box-shadow: 0 0.5rem 0.75rem hsla(217, 19%, 35%, 0.5);
 }
 
-.social-media-icons::after {
+.social-media-icons::before {
   content: "";
-  width: 0;
-  height: 0;
-  border-left: 13px solid transparent;
-  border-right: 13px solid transparent;
-  border-top: 13px solid var(--dark-grayish-blue);
+  width: 20px;
+  height: 20px;
+  background-color: var(--dark-grayish-blue);
+  transform: rotate(-45deg);
   position: absolute;
-  top: 55px;
-  box-shadow: 0 1rem 3rem hsla(212, 23%, 69%, 0.25);
+  top: 45px;
+  box-shadow: -0.5rem 0.5rem 0.75rem hsla(217, 19%, 35%, 0.25),
+    -0.5rem 0.5rem 0.75rem hsla(217, 19%, 35%, 0.25);
 }
 
 .social-media-icon {
